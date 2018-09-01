@@ -636,6 +636,85 @@ a
     
 }
 
+/* start our form */
+
+.our-form
+{
+    width: 800px;
+    margin: auto
+}
+
+.our-form form input ,
+.our-form form textarea,
+.our-form custom-file
+{ 
+    margin-bottom: 20px;
+    width: 500px;
+    margin-right: 10px
+}
+
+
+
+.our-form form input[type="text"],
+.our-form form input[type="email"],
+.our-form form input[type="password"],
+.our-form form textarea
+{
+    padding: 10px
+}
+
+.our-form form textarea
+{
+    height: 180px;
+}
+
+.our-form .custom-file
+{
+    background-color: #FFF;
+    border: 1px solid rgba(169,169,169);
+    margin-bottom: 10px;
+    position: relative;
+    height: 40px
+}
+
+.our-form .custom-file span
+{
+    display: inline-block;
+    padding: 8px 12px
+}
+
+.our-form .custom-file .fa-upload
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1    
+}
+
+.our-form .custom-file input[type="file"]
+{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2
+}
+
+.our-form .the-message
+{
+    display: none
+}
+
+.our-form form input[type="submit"]
+{
+    padding: 15px;
+    font-size: 16px
+}
+
+/* End our form */
+
 
 
 
