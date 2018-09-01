@@ -2,17 +2,36 @@
 {
     color: red;
     width: 100%;
-    height: 200;
+    height: 200px;
     text-align: center;
-    padding-top: 100;
+    padding-top: 100px;
     background-color: #09c;
     font-size: 30;
 }
+/*
+    By Mahmoud elkhadragy
+*/
+
+.elkhadragy{
+    width: 100%;
+    height: 500px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.elkhadragy h1{
+    padding-top: 200px;
+    font-size: 45px;
+}
+
+
+
 *
 {
     margin: 0;
     padding: 0;
 }
+
 body
 {
     background-color: #EFEFEF;
@@ -21,9 +40,7 @@ body
 .mainmenu
 {
     height:500px;
-    
     background-image: url(wall.jpg.jpeg);
-    background-size: contain;
     
 }
 
@@ -355,7 +372,7 @@ span
 {
     width: 100%;
     height: 600px;
-    background-color: #EFEFEFn;
+    background-color: #EFEFEF;
 }
 a
 {
