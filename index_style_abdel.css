@@ -1,0 +1,39 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+body
+{
+    background-color: black;
+}
+.circle
+{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-image:url(abdel.jpg);
+    background-size:cover;
+    border:3px solid #fff;
+}
+p
+{
+    color :#fff;
+    font-size: 36px;
+    font-weight: 700;
+    font-family:open sans;
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%,0);
+    opacity:0;
+    transition: all 1s;
+}
+p:hover 
+{
+    opacity:1;
+}
